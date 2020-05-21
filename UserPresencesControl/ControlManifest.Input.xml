@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="TRH" constructor="UserPresencesControl" version="0.0.1" display-name-key="Control_Display_Key" description-key="Control_Desc_Key" control-type="standard">
+  <control namespace="TRH" constructor="UserPresencesControl" version="1.0.0" display-name-key="Control_Display_Key" description-key="Control_Desc_Key" control-type="standard">
     <data-set name="dataSet" display-name-key="Dataset_Display_Key" cds-data-set-options="displayCommandBar:true;displayViewSelector:true;displayQuickFindSearch:true">
       <property-set name="fullname" display-name-key="fullname_Display_Key" description-key="fullname_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
       <property-set name="jobTitle" display-name-key="jobTitle_Display_Key" description-key="jobTitle_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
